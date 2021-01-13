@@ -1,0 +1,169 @@
+{
+  "id": "9ee1bea3-5ccb-4d57-97d3-f7f525a85d12",
+  "name": "Berapa malam",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Baik, berapa banyak tamu yang bersamamu?",
+            "Baik, untuk berapa orang?",
+            "Adakah orang lain selain anda?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "1 malam",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e2d9ea4b-4158-43b6-8870-80a7f2519729",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "2 malam",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e15f6878-6eab-40ef-83da-f24c32893f85",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "3 malam",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "21509066-e3bb-4c73-9046-e95d16938966",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Untuk ",
+          "userDefined": false
+        },
+        {
+          "text": "3 malam",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " saja",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "44830e3b-53fb-4518-9356-31a63938cc34",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Untuk ",
+          "userDefined": false
+        },
+        {
+          "text": "1 malam",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " saja",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de1e520e-c322-47f2-ae7b-b87be5e183c1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Untuk ",
+          "userDefined": false
+        },
+        {
+          "text": "2 malam",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " saja",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ce818a29-fdf5-44b0-a443-f96f813fae24",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Saya ingin menginap ",
+          "userDefined": false
+        },
+        {
+          "text": "2 malam",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "6d802d54-07c4-4e7d-b475-994e0d120440",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

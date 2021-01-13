@@ -1,0 +1,96 @@
+{
+  "id": "312bad3b-6272-4387-ad18-1b5b6a1f4c93",
+  "name": "konfirmasi kasur",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Baiklah, Kamar Anda akan menjadi Rp 500.000,00 per malam.\nBagaimana Anda ingin membayar? Uang tunai atau kartu kredit?",
+            "Baiklah, untuk harga permalamnya Rp 500.000,00 per malam.\nBagaimana Anda ingin membayar? Uang tunai atau kartu kredit?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tidak saya ingin extra bed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1a2ba426-5477-473e-a5ce-62b0ba427d04",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tidak saya ingin double bed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3aaad0cc-e265-4aa0-a918-7a1515572ccf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Tidak saya  ingin twin ",
+          "userDefined": false
+        },
+        {
+          "text": "bed",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "1213ea39-7cab-4350-890d-dbf700c0fd11",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Boleh",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a116f7a8-1d47-406b-91bb-6231ce15d9e8",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

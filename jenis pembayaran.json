@@ -1,0 +1,128 @@
+{
+  "id": "cb9996b3-411d-4d70-81d8-64e678c6afff",
+  "name": "jenis pembayaran",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Ya, Terima kasih.",
+            "Baik, Terima kasih."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Saya ingin kartu kredit",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "04c0996b-04a8-493d-bec6-73870201c98b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "kartu",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5fe0774b-481c-446f-be7b-79372f2052ed",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "kredit",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4a1d8ad2-ce07-40a8-8d84-10092439d8b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "kartu kredit",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e24f0f3a-0eb8-408e-8b35-eb0550704de1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "tunai",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "2df8bcc5-f06e-4029-bb25-f13c340814dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Saya ingin tunai",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f03d555b-993e-4954-a275-f71c352f87cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Saya ingin pakai kartu kredit",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c33071df-1ddf-45ad-9452-bbd8da885eba",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

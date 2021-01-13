@@ -1,0 +1,7 @@
+Nama bot: Malibu Hotel
+username bot: @hotelinfbot
+Fungsi: memberikan simulasi pemesanan kamar hotel dengan memakai chatbot telegram.
+penerapannya dengan memakai dialogflow yang ter integrasi dengan telegram. yang memakai botfather untuk mendapatkan token
+dan di koneksikan dengan dialogflow agar chatbot dapat berfungsi. dengan adanya dialogflow maka kita hanya perlu memikirkan kata apa yang masuk 
+dan kata apa yang keluar.
+tujuan untuk merasakan bagaimana pegalaman memesan kamar hotel dan diberikan pelayanan melalui chatbot telegram. 

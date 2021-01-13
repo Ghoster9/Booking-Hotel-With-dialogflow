@@ -1,0 +1,79 @@
+start: hai
+
+Selamat Datang di Hotel ....
+Ada yang bisa kami bantu?
+
+us: saya ingin memesan kamar untuk 2 orang
+
+baik,
+
+Nikmati pengalaman dan kemewahan dari Malibu hotel.
+
+R: Selamat pagi Bu, selamat datang di ABC Hotel. Apa yang bisa kami bantu?
+G: Apakah Anda memiliki kamar yang tersedia untuk hari ini?
+
+R: Ya Bu, kami punya banyak kamar yang tersedia hari ini. Berapa lama kamu akan tinggal?
+G: Saya akan menginap selama tiga malam.
+
+R: Berapa banyak tamu yang bersamamu?
+G: Hanya saya dan teman saya.
+R: Apakah Anda ingin kamar dengan tempat tidur double atau twin?
+G: Tolong tempat tidur twin.
+R: Semua kamar di hotel ini adalah kamar bebas rokok. Apakah Anda setuju dengan itu?
+G: Tidak masalah.
+R: Baiklah, Bu. Kamar Anda akan menjadi Rp 500.000,00 per malam. Bolehkah saya melihat KTP Anda?
+G:Ini dia.
+R: Terima kasih. Bagaimana Anda ingin membayar? Uang tunai atau kartu kredit?
+G: Saya mau bayar dengan kartu kredit, ini dia.
+R: Ya Bu. Terima kasih.
+G: Apakah sudah termasuk sarapan?
+R: Ya, sarapan ala Asia lengkap setiap pagi.
+G: Terima kasih.
+R: Sama-sama, Nyonya. Bisakah Anda mengisi formulir ini?
+G: Tentu tidak masalah.
+R:Baik. Terima kasih nyonya. Kami memproses informasi Anda. Kamar Anda akan menjadi kamar 678 di lantai enam. Ini kunci kamar Anda. Untuk sampai ke kamar Anda, naik lift di sisi kiri, lalu tekan enam tombol di lift. Kamar Anda akan berada di sisi kanan. Seorang pelayan akan segera membawa koper Anda.
+G: Hebat terima kasih.
+R: Sama-sama. Jika Anda memiliki masalah, harap tekan '0' dari kamar Anda. Ada koneksi internet yang tersedia di semua area hotel 24 jam sehari.
+G: Terima kasih. Jam berapa keluar?
+R: Waktu maksimal untuk check-out adalah pukul 14.00.
+G: Terima kasih.
+
+welcome 
+assalamualaikum
+hai
+halo
+
+
+1 tanya kamara
+Adakah kamar kosong?
+Ada kamar kosong gk?
+Apakah Anda memiliki kamar yang tersedia untuk hari ini?
+
+2 berapa malam
+Untuk 1 malam saja
+Untuk 2 malam saja
+Saya ingin menginap 2 malam
+
+3 berapa orang
+Saya bersama suami
+Saya bersama anak
+Saya bersama istri
+sendiri
+saya seorang diri
+saya berasama teman
+saya sendiri
+
+4 konfirmasi kasur
+Tidak saya ingin extra bed
+Tidak saya ingin double bed
+Tidak saya  ingin twin bed
+Boleh
+
+5 jenis pembayaran
+Saya ingin kartu kredit
+kartu
+kredit
+kartu kredit
+tunai
+Saya ingin tunai
+Saya ingin pakai kartu kredit

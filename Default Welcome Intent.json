@@ -1,0 +1,223 @@
+{
+  "id": "589d7415-d0b9-470e-aeb5-15ed62708c7d",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Selamat datang di hotel Malibu, ada yang bisa kami bantu?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "selamat ",
+          "userDefined": false
+        },
+        {
+          "text": "pagi",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "35dec944-65cb-4f71-ae02-5642510ba3ea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Mau pesan ",
+          "userDefined": false
+        },
+        {
+          "text": "hotel dong",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "d5a1c071-18e6-488c-99de-ef02c5b9eac9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Selamat ",
+          "userDefined": false
+        },
+        {
+          "text": "pagi",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "pak",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "715973b9-fa26-43b4-b49f-ad9a86e0ed30",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Selamat pagi ",
+          "userDefined": false
+        },
+        {
+          "text": "Bu",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e58af6bb-a449-4b21-86f6-ce8b729769b8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "halo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e9a47ea8-9e0c-4127-b4fa-61c83b514e16",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hai",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9320cbb4-e740-4855-8b08-c9ee27c9ec52",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "salam",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "52d3c497-0275-46d9-b46e-90675f8ed3b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "halo halo",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "81310082-f4ec-4c05-9811-4755fede715a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hai hai",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4398e26-2bfd-4fe4-9fd0-886c35506e3a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "halo apa kabar",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c39afc26-7d5e-4619-8418-37ca1ef23af8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "assalamualaikum",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1f42a77-3a1f-426e-89e3-e97fb36089f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "hai apa kabarnya",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7fbb68dd-e64d-4031-9039-ac99a7b27afc",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

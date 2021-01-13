@@ -1,0 +1,119 @@
+{
+  "id": "70681ee6-93ee-4590-860c-702eefc1d60b",
+  "name": "tanya Kamar",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Kami punya banyak kamar yang tersedia hari ini, ingin berapa malam?",
+            "Ya kami punya, ingin berapa malam?",
+            "Tentu saja ada, ingin berapa malam anda menginap?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Adakah ",
+          "userDefined": false
+        },
+        {
+          "text": "kamar",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " kosong?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "516b3287-cf88-4392-864b-702a2e5f84a7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Ada ",
+          "userDefined": false
+        },
+        {
+          "text": "kamar",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " kosong gk?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8cfb721d-6752-47ec-90e3-a1f54cbaa80f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Apakah Anda memiliki ",
+          "userDefined": false
+        },
+        {
+          "text": "kamar",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " yang tersedia untuk ",
+          "userDefined": false
+        },
+        {
+          "text": "hari ini",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "025c3390-ffb5-424d-9c35-a50692d3f433",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

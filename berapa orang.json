@@ -1,0 +1,147 @@
+{
+  "id": "0ff94030-ec50-4720-966b-e5be37ad4140",
+  "name": "berapa orang",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Baik, apakah anda ingin Double bed?",
+            "Baik, apakah anda ingin Extra bed?",
+            "Baik, apakah anda ingin Single bed?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Saya bersama ",
+          "userDefined": false
+        },
+        {
+          "text": "suami",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "83ef55cb-f6da-434e-8ed5-96631ee6a01b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Saya bersama anak",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "e630c3e4-0274-4753-99e7-51849ae2f329",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Saya bersama ",
+          "userDefined": false
+        },
+        {
+          "text": "istri",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "eef9b3e9-26b5-4379-903c-cf45a7b0bdbc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "sendiri",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "225dd0a8-61fc-48c9-81c6-33750ba0f297",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "saya seorang diri",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7d1f4f9c-b64d-470d-a39e-cb7403a3a4ea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "saya berasama ",
+          "userDefined": false
+        },
+        {
+          "text": "teman",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "19548d6d-c836-4de4-a6e5-f4776f319fc5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "saya sendiri",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7fa89dd-40cf-435e-913e-83662ff31634",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
